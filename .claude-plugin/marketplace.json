@@ -1,0 +1,13 @@
+{
+    "name": "0x5am5-marketplace",
+    "owner": {
+        "name": "Samuel Gregory"
+    },
+    "plugins": [
+        {
+            "name": "my-code-setup",
+            "source": "./my-code-setup",
+            "description": "My Claude Coding setup plugin"
+        }
+    ]
+}
