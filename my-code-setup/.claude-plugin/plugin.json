@@ -4,10 +4,5 @@
     "version": "1.0.0",
     "author": {
         "name": "Samuel Gregory"
-    },
-    "commands": ["./commands/coderabbit.md","./commands/question.md"],
-    "agents": ["./agents/test-writer-maintainer.md", "./agents/duplicate-file-cleaner.md", "./agents/typescript-error-resolver.md", "./agents/architecture-security-auditor.md", "./agents/frontend-architecture-auditor.md"],
-    "skills": "./skills/code-review.md",
-    "mcpServers": "./.mcp.json",
-    "lspServers": "./.lsp.json"
+    }
 }

@@ -1,0 +1,25 @@
+## Rules
+- Avoid `any` type and always check codebase for schema.ts files and import or create types as much as possible
+- always run linting until errors are clear
+- ALWAYS consider industry best practices when asked to plan/think hard about anything
+- ALWAYS create todo lists to remain on track
+- AVOID boolean values in the database as much as possible. Always consider dates. e.g. instead of onboardingComplete: boolean use onboardingCompletedOn: DATE.
+- DON'T create development bypasses or simulations unless specifically asked to
+- ALWAYS write optimistic updates when using Tanstack
+- when referencing any technologies in a codebase, always check up to date documentation using the Ref mcp and exa to search up to date coding patterns
+- whenever planning a new feature make sure to use the exa search mcp to research up to date best practices and documentation as well as the Ref mcp to refer to up to date documentation
+- whenever working on any feature using a technology, library or sdk in a codebase, refer to the Ref mcp to get up to date documentation
+- whenever creating a project CLAUDE.md file or running /init, ask which Linear project name we should use and create a new project on Linear using that name using the Linear MCP server
+- prompt me to run database migrations (npx drizzle-kit push, npm run db:push, etc)
+- if checking typescript errors, always delegate to typescript subagent
+- if writing or running tests, ALYWAYS use the testwriter subagent
+- when wrapping up ANY tasks touching the backend, ALWAYS run it through the architecture subagent to give a second opinion on the work done using exa mcp to verify best practices
+- when wrapping up ANY tasks touching the frontend, ALWAYS run it thourh the frontend architecture subagent to give a second opinion on the work done exa mcp to verify best practices
+- Don't create new branches unless explicitly asked to. Do not suggest creating one
+- When creating data in tests, always clean up any test data created
+- Create git worktree in a `trees` folder within the current project and add trees to .gitignore
+- Use bun instead of npm for all tasks and package installation
+- Always add JSDoc comments to exported functions and classes
+- Use semantic HTML elements (nav, main, article, section, etc.) instead of generic divs when appropriate
+- ALWAYS validate API request bodies and inputs using Zod schemas before processing. Never trust user input without validation - parse and validate all request data with Zod schemas and return appropriate error responses for invalid input
+- Always use environment variables for configuration values instead of hardcoding them. Create a centralized config file that validates and exports environment variables with proper types
