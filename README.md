@@ -5,3 +5,7 @@ This isn't really intended on being seriously used. Just a demonstration to comp
 Feel free to use as inspiration.
 
 Like, subscribe and all the rest of it and until next time, keep on Vibing ✌️
+
+## Claude Code Crash Course
+
+Also check out my [Claude Code Crash Course](https://www.patreon.com/collection/1940547?view=expanded). You just need to subscribe to Advanced Learners Tier to gain early access.
