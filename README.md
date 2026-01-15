@@ -1,6 +1,6 @@
 # 0x5am5-marketplace
 
-This isn't really intended on being seriously used. Just a demonstration to compliment my [YouTube video](https://youtu.be/MFUu0uZoe-Q).
+This isn't really intended on being seriously used. Just a demonstration to compliment my [YouTube video](https://youtu.be/vKgfoQZgkYY).
 
 Feel free to use as inspiration.
 
